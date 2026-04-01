@@ -26,7 +26,7 @@ dat <- read.csv("https://raw.githubusercontent.com/YingWana/cmda2014-classNoMiss
 
 ## Data Dictionary
 
-| Variable | Survey Question / Description |
+| Variable | Description |
 |---|---|
 | `code` | Create an anonymous, unique, numerical 4-digit code that only you would know. It may contain ONLY numbers: e.g., 1876. |
 | `age` | What is your age in years? E.g., 19.1 |
