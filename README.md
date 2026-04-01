@@ -7,14 +7,8 @@ This repository hosts the class survey dataset for **HW10: Sentiment and Explore
 ## Quick Start (R)
 
 ```r
-library(httr)
-library(jsonlite)
+dat <- read.csv("https://raw.githubusercontent.com/YingWana/cmda2014-classNoMissPolar/main/classNoMissPolar.csv")
 
-url <- "https://raw.githubusercontent.com/YingWana/cmda2014-classNoMissPolar/main/classNoMissPolar.json"
-dat <- fromJSON(content(GET(url), as = "text", encoding = "UTF-8"))
-
-head(dat)
-dim(dat)
 ```
 
 ---
@@ -23,7 +17,7 @@ dim(dat)
 
 | | |
 |---|---|
-| **File** | `classNoMissPolar.json` |
+| **File** | `classNoMissPolar.csv` |
 | **Records** | 86 students |
 | **Variables** | 43 |
 | **Format** | JSON |
