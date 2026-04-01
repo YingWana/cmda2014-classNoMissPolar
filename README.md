@@ -7,7 +7,7 @@ This repository hosts the class survey dataset for **HW10: Sentiment Lab** in CM
 ## Quick Start (R)
 
 ```r
-dat <- read.csv("https://raw.githubusercontent.com/YingWana/cmda2014-classNoMissPolar/main/classNoMissPolar.csv")
+dat <- read.csv("https://raw.githubusercontent.com/YingWana/cmda2014-hw10/main/classNoMissPolar.csv")
 
 ```
 
