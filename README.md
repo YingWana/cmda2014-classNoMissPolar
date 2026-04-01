@@ -1,6 +1,6 @@
 # CMDA 2014 — HW10: Sentiment Lab
 
-This repository hosts the class survey dataset for **HW10: Sentiment and Explore Lab** in CMDA 2014 
+This repository hosts the class survey dataset for **HW10: Sentiment Lab** in CMDA 2014 
 
 ---
 
@@ -20,7 +20,7 @@ dat <- read.csv("https://raw.githubusercontent.com/YingWana/cmda2014-classNoMiss
 | **File** | `classNoMissPolar.csv` |
 | **Records** | 86 students |
 | **Variables** | 43 |
-| **Format** | JSON |
+| **Format** | Comma-separated values (CSV) |
 
 ---
 
